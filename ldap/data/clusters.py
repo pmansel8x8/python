@@ -53,3 +53,5 @@ PROD_CLUSTERS: dict[str, str] = {
     "EU10": "vldapeu10.uk3.whitepj.net",
     "EU11": "vldapeu11.uk3.whitepj.net",
 }
+
+CLUSTERS = EN1_CLUSTERS
