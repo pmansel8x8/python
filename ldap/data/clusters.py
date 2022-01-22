@@ -32,7 +32,7 @@ PROD_CLUSTERS: dict[str, str] = {
     "NA27": "vldapna27.us2.whitepj.net",
     "NA28": "vldapna28.us2.whitepj.net",
     "NA29": "vldapna29.us2.whitepj.net",
-    "NA30": "vldapna30.us1.whitepj.net",
+    "NA30": "vldapna30.us2.whitepj.net",
     "NA37": "vldapna37.us2.whitepj.net",
     "NA38": "vldapna38.us2.whitepj.net",
     "NA39": "vldapna39.us2.whitepj.net",
@@ -54,4 +54,11 @@ PROD_CLUSTERS: dict[str, str] = {
     "EU11": "vldapeu11.uk3.whitepj.net",
 }
 
-CLUSTERS = EN1_CLUSTERS
+TEST_PROD_CLUSTERS: dict[str, str] = {
+    "NA1": "vldapna1.santaclara.whitepj.net",
+    "NA2": "vldapna2.santaclara.whitepj.net",
+    "NA3": "vldapna3.santaclara.whitepj.net",
+}
+
+# CLUSTERS = EN1_CLUSTERS
+CLUSTERS = PROD_CLUSTERS
